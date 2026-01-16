@@ -151,11 +151,6 @@ exitloop:
 
 
    
-    # -------------------------------------------------
-    # delete this line and insert your code / jal
-               # placeholder, REMOVE THIS
-    # -------------------------------------------------
-
     move $s0, $v0         # save packet length
 
     # Print packet length
@@ -172,4 +167,5 @@ exitloop:
     syscall
 
     li   $v0, 10          # exit
+
     syscall
